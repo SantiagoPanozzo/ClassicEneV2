@@ -1,0 +1,7 @@
+version: '3'
+services:
+  your-app:
+    build:
+      context: .
+    env_file:
+      - .env
